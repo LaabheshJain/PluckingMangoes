@@ -91,7 +91,7 @@ function mouseDragged()
 
 function mouseReleased()
 {
- string.fly();
+ Slingshot.fly();
 }
 
 function detectCollision(lstone, lmango)
