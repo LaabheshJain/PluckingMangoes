@@ -91,7 +91,7 @@ function mouseDragged()
 
 function mouseReleased()
 {
- Slingshot.fly();
+ string.fly();
 }
 
 function detectCollision(lstone, lmango)
@@ -115,7 +115,7 @@ function keyPressed(){
 		string.attach(stone.body);
   }
   
-  if(keycode === space){
+  if(keyCode === space){
     stone.x=200;
     stone.y=200;
   }
